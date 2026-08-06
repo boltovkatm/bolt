@@ -1,0 +1,5 @@
+# URL вашего сайта на Vercel, без слеша в конце.
+website-url: "https://YOUR-PROJECT.vercel.app"
+# Должен в точности совпадать с BOLTOVKA_PLUGIN_KEY в Vercel.
+plugin-key: "CHANGE_THIS_TO_A_LONG_RANDOM_SECRET"
+poll-seconds: 10

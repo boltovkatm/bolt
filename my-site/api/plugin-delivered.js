@@ -1,0 +1,1 @@
+const {pool,send,body,pluginAuth}=require('./lib');module.exports=async(req,res)=>{if(req.method!=='POST'||!pluginAuth(req))return send(res,401,{error:'Unauthorized'});const {ids=[]}=body(req);await pool.query('UPDATE registration_codes SET delivered=true WHERE id=ANY($1::text[])',[ids]);send(res,200,{ok:true});};

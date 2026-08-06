@@ -1,5 +1,0 @@
-name: BoltovkaAuth
-version: 1.0.0
-main: ru.boltovka.auth.BoltovkaAuthPlugin
-api-version: '1.16'
-description: Private registration codes for BOLTOVKA ANARCHY
